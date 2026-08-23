@@ -1,0 +1,26 @@
+{
+  "checkpoint": "DM-TP-0G-Q",
+  "version": "v1.0.0",
+  "holdout_used_to_construct_rows": false,
+  "frozen_particle_inputs": {
+    "m_q_GeV": 898047665770334.5,
+    "m_sigma_GeV": 186728147431668.56,
+    "g_portal": 2.313019,
+    "tau_q_s": 6.509369532780626e-39,
+    "rho_amp_over_F4": 0.048302977450634346
+  },
+  "portal_theorem": {
+    "pi_pi_to_qq_amplitude": "M(s)=4 g s/(s-m_sigma^2) up to overall sign",
+    "qq_to_pi_pi_cross_section": "sigma=|M|^2/(32 pi s beta_q)",
+    "sigma_sigma_channel": "contact + s-channel sigma + t/u q exchange included",
+    "boltzmann_correction_from_0F": "for self-conjugate q, dn/dt+3Hn=-<sv>(n^2-n_eq^2); freeze-in source has no extra factor 2"
+  },
+  "target_blind_comparators": [
+    {"scenario":"coherent_sigma_decay_without_rescattering","status":"exact kinematic lower control","thermal_assumption":"none","predicted_Yq":0.0,"reason":"m_sigma < 2 m_q; primary sigma->2pi daughters also have sqrt(s)<=m_sigma for a first 2->2 collision"},
+    {"scenario":"rho_amp_to_SM_plus_Phi_common_bath","status":"conditional capacity comparator","thermal_assumption":"rho_amp completely thermalizes into SM g*=106.75 plus Goldstone and smooth thermal sigma; pi-pi and sigma-sigma portal channels","Tmax_GeV":34025184712238.48,"predicted_Yq":8.868730737092223e-24},
+    {"scenario":"rho_amp_to_minimal_PS_plus_Phi_common_bath","status":"high-priority conditional structural comparator","thermal_assumption":"free-field realization of 0E Pati-Salam high-T visible content: 21 vectors + 48 Weyl + 4 real visible scalars, plus exact Goldstone; smooth thermal sigma; common temperature; pi-pi and sigma-sigma portal channels","Tmax_GeV":32405532302652.168,"gstar_at_Tmax":131.08539460871114,"gstars_at_Tmax":131.07254021237233,"predicted_Yq":4.970317483748772e-25},
+    {"scenario":"rho_amp_through_0E_PS_two_hidden_stress_partition_postsink","status":"conditional separated-sector capacity comparator","thermal_assumption":"0E PS stress-weight partition with two hidden real-scalar channels; hidden energy ultimately one Goldstone; amplitude-capacity energy only","Tvis_max_GeV":34070166014782.363,"Tgoldstone_max_GeV":29121163439408.04,"predicted_Yq":3.545375329354898e-28},
+    {"scenario":"full_gap_through_0E_PS_two_hidden_stress_partition_postsink","status":"conditional separated-sector upper-capacity comparator","thermal_assumption":"0E PS stress-weight partition with two hidden real-scalar channels; full scalar-gap capacity; hidden energy ultimately one Goldstone","Tvis_max_GeV":68116398983571.53,"Tgoldstone_max_GeV":58221870326192.64,"predicted_Yq":4.498711473200762e-15}
+  ],
+  "sha256_before_holdout_comparison": "ca914c584fedcea70c7c607273106454cd1c7b10c6183b99cda33dd13829bb95"
+}

@@ -1,0 +1,16 @@
+{
+  "checkpoint": "DM-TP-0F-Q",
+  "version": "v1.0.0",
+  "classification": "CONDITIONAL LINEAR-STRUCTURE PASS",
+  "conditional_Y_q": 4.870138477193871e-25,
+  "new_dark_normalizations": 0,
+  "free_streaming_Mpc_hostile_5MeV": 3.121383237718697e-05,
+  "shot_noise_Mpc3": 2.417290910565574e-53,
+  "production_clue": {
+    "candidate": "handoff-era portal freeze-in",
+    "T_required_GeV": 32118625203243.2,
+    "hbar_over_pi_tau_GeV": 32186738213362.707,
+    "ratio": 0.9978838175627491,
+    "not_a_closure": true
+  }
+}

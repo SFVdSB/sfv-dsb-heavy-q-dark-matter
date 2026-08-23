@@ -1,0 +1,28 @@
+{
+  "checkpoint": "DM-TP-0E-Q",
+  "version": "v1.0.0",
+  "classification": "CONDITIONAL COSMOLOGICAL-DM PASS at homogeneous/background level",
+  "derived": {
+    "m_q_GeV": 898047665770334.5,
+    "q_Z2_stable_in_frozen_EFT": true,
+    "postproduction_scaling": "rho_q proportional to a^-3",
+    "Omega_q_h2_per_Yq": 2.463995645338259e+23
+  },
+  "single_conditional_input": {
+    "name": "Y_q",
+    "definition": "asymptotic post-handoff n_q / s_visible after immediate transient",
+    "required_by_standard_reference_holdout": 4.870138477193871e-25
+  },
+  "open": [
+    "first-principles handoff production theorem for Y_q",
+    "exact beta_q(k) high-momentum tail",
+    "linear structure/free-streaming/interaction audit in 0F-Q"
+  ],
+  "firewalls": {
+    "H8_used": false,
+    "Lambda_mem_used": false,
+    "B1E_combined_with_particle_q": false,
+    "DE_refit": false,
+    "exp_minus_2pi_mtau_used_to_choose_Yq": false
+  }
+}

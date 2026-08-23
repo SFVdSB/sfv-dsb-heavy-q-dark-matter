@@ -1,0 +1,13 @@
+{
+  "holdout_opened_after_precommit_hash": "ca914c584fedcea70c7c607273106454cd1c7b10c6183b99cda33dd13829bb95",
+  "Yq_required_from_0E_Q": 4.870138477193871e-25,
+  "comparisons": [
+    {"scenario":"coherent_sigma_decay_without_rescattering","predicted_Yq":0.0,"Yq_holdout":4.870138477193871e-25,"prediction_over_holdout":0.0,"relative_difference":-1.0,"status":"exact kinematic lower control"},
+    {"scenario":"rho_amp_to_SM_plus_Phi_common_bath","predicted_Yq":8.868730737092223e-24,"Yq_holdout":4.870138477193871e-25,"prediction_over_holdout":18.210428263227342,"relative_difference":17.210428263227342,"status":"conditional capacity comparator"},
+    {"scenario":"rho_amp_to_minimal_PS_plus_Phi_common_bath","predicted_Yq":4.970317483748772e-25,"Yq_holdout":4.870138477193871e-25,"prediction_over_holdout":1.0205700529921324,"relative_difference":0.020570052992132437,"status":"high-priority conditional structural comparator"},
+    {"scenario":"rho_amp_through_0E_PS_two_hidden_stress_partition_postsink","predicted_Yq":3.545375329354898e-28,"Yq_holdout":4.870138477193871e-25,"prediction_over_holdout":0.0007279824477183472,"relative_difference":-0.9992720175522817,"status":"conditional separated-sector capacity comparator"},
+    {"scenario":"full_gap_through_0E_PS_two_hidden_stress_partition_postsink","predicted_Yq":4.498711473200762e-15,"Yq_holdout":4.870138477193871e-25,"prediction_over_holdout":9237337899.666618,"relative_difference":9237337898.666618,"status":"conditional separated-sector upper-capacity comparator"}
+  ],
+  "high_priority_PS_common_bath_diagnostic": {"Y_pred":4.970317483748772e-25,"Y_pred_over_Y_req":1.0205700529921324,"relative_difference_percent":2.0570052992132437,"tree_loop_expansion_marker_g2_over_16pi2":0.03387963106815664,"energy_loading_factor_that_would_exactly_match_if_illegally_fit":0.998503489000577,"corresponding_T_GeV":32393409197520.324,"firewall":"Do not promote the exact-match loading factor; loading/common-bath theorem must be derived independently."},
+  "old_exponential_clue": {"exp_minus_2pi_mtau":5.825743513014618e-25,"ratio_to_Yreq":1.196217220577136,"status":"clue only"}
+}

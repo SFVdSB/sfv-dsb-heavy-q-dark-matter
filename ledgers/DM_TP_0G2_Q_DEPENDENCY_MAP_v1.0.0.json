@@ -1,0 +1,11 @@
+{
+  "current_DM_endpoint": {
+    "derived": ["q mass","q Z2 stability","cold/collisionless linear cosmology","portal production operator"],
+    "conditional": ["one universal asymptotic q yield / handoff occupation"]
+  },
+  "what_would_upgrade_abundance": {
+    "not_needed": ["historical Lambda_mem","late L_IR normalization by itself"],
+    "possibly_same_upstream_theorem": ["derive N_star from physical handoff trigger","derive time-dependent handoff operator","derive channel-resolved energy partition","derive visible-Phi connector/equilibration"],
+    "independent_UV_issue": ["complete PS-breaking scalar spectrum and thresholds, unless the upstream parent action also derives it"]
+  }
+}

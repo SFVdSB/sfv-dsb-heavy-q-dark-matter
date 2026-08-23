@@ -1,0 +1,24 @@
+{
+  "checkpoint": "DM-TP-0G1-Q",
+  "version": "v1.0.0",
+  "abundance_used_to_select_theorem": false,
+  "results": {
+    "absolute_handoff_loading": "NO-PASS",
+    "visible_self_thermalization": "CONTROLLED CONDITIONAL PASS",
+    "Phi_internal_equilibration_if_loaded": "PASS / STRONG CONDITIONAL",
+    "visible_Phi_common_temperature": "NO-PASS",
+    "active_PS_thermal_DOF": "NO-PASS",
+    "unique_common_bath_state": "NO-PASS"
+  },
+  "controls": {
+    "T_8real_bidoublet_branch_GeV": 32163080374101.44,
+    "gstar_8real": 135.0829077318645,
+    "Gamma_sigma_over_H": 227.19319772887428,
+    "inverse_decay_per_Goldstone_over_H": 10.58952632086283,
+    "g_PS_threshold_kappa1": 0.2993310741728353,
+    "g_PS_threshold_kappa0p1": 0.5322942859863865,
+    "generic_lambda_intersector_threshold": 0.03574486607059966,
+    "generic_dim5_coefficient_threshold": 0.19686337280384664
+  },
+  "sha256_before_abundance_consequence_audit": "083f41b772c8788683a57f7f0a221aa226d202f333293e19f137e0ba1b926f47"
+}
