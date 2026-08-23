@@ -27,21 +27,21 @@ This is **not** claimed as a first-principles abundance prediction. The final 0G
 
 ## Paper
 
-- `paper/sfv_dsb_heavy_q_dark_matter_v1.0.0.tex`
-- `paper/sfv_dsb_heavy_q_dark_matter_v1.0.0.pdf`
+The canonical v1.0.0 PDF, LaTeX source, and complete archival repository snapshot are deposited at Zenodo DOI `10.5281/zenodo.22073295`. See `paper/README.md` for the publication claim boundary.
 
 ## Repository structure
 
-- `checkpoints/` - formal checkpoint reports from the target-blind derivation program
-- `ledgers/` - claim ledgers, numerical controls, model specifications, holdout commitments, and provenance records
+- `checkpoints/` - formal retained checkpoints from the target-blind derivation program
+- `ledgers/` - model specifications, blind commitments, holdout comparisons, and provenance records
 - `reproducibility/` - compact scripts for reproducing the final core numerical relations
 - `docs/` - final claim boundary and release notes
+- `paper/` - publication metadata/pointer to the canonical Zenodo manuscript archive
 
 ## Derivation chain
 
 `0A -> 0A.1 -> 0D-A -> 0D-B -> 0D-B1 -> 0D-C -> 0E-Q -> 0F-Q -> 0G-Q -> 0G1-Q -> 0G2-Q`
 
-Important failed or demoted routes are preserved rather than removed. In particular, historical dark-memory/H8 amplitudes and `Lambda_mem` are not inputs to the retained heavy-q abundance theory.
+Important failed or demoted routes are preserved in the canonical Zenodo archive rather than removed. In particular, historical dark-memory/H8 amplitudes and `Lambda_mem` are not inputs to the retained heavy-q abundance theory.
 
 ## Related SFV/dSB records
 
