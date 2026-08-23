@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the Zenodo release and accompanying paper."
+title: "Conditional Heavy-q Dark Matter in Two-Phase SFV/dSB Cosmology: A Stable Ultraheavy Relic with a Derived Portal Production Channel"
+version: 1.0.0
+doi: 10.5281/zenodo.22073295
+date-released: 2026-08-23
+authors:
+  - family-names: Hoffmann
+    given-names: Steven
+type: article

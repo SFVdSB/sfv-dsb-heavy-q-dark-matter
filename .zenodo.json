@@ -1,0 +1,11 @@
+{
+  "title": "Conditional Heavy-q Dark Matter in Two-Phase SFV/dSB Cosmology: A Stable Ultraheavy Relic with a Derived Portal Production Channel",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name": "Hoffmann, Steven"}],
+  "description": "A dark-matter rederivation under the frozen SFV/dSB two-phase cosmology. The retained carrier is the pre-existing real scalar q: its ultraheavy mass, exact Z2 stability, cold/collisionless cosmology, and pair-production portal are derived without adding a new dark field or dark-sector coupling. The homogeneous abundance closes with one explicitly conditional universal post-handoff yield Y_q. The final provenance audit shows that the remaining first-principles obstruction is upstream in the 2+1 to 3+1 handoff/reheating state: absolute channel loading, the Phi-visible thermal connector, and the threshold-complete Pati-Salam thermal spectrum. Historical H8/Lambda_mem amplitudes are not used as inputs, and the paper does not claim first-principles absolute dark-matter abundance.",
+  "keywords": ["dark matter","superheavy dark matter","nonthermal relic","freeze-in","SFV/dSB","O(4) bounce","Coleman-De Luccia","Pati-Salam","holographic cosmology","2+1 to 3+1 dimensional handoff","scalar portal","early-universe cosmology"],
+  "version": "1.0.0",
+  "publication_date": "2026-08-23",
+  "doi": "10.5281/zenodo.22073295"
+}

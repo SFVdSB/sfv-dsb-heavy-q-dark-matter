@@ -1,0 +1,11 @@
+m_q = 8.980476657703e+14 GeV
+Omega_q h^2 / Y_q = 2.463995645338e+23
+Omega_q h^2 at frozen conditional Y_q = 0.120000000000
+p/m (p tau_q=1) = 0.112597164013
+v_birth = 0.111890119696
+w_birth = 4.173132961840e-03
+conservative lambda_FS = 3.121383237719e-05 Mpc = 31.214 pc
+n_q0 = 1.408054436526e-21 cm^-3
+P_shot = 2.417290910566e-53 Mpc^3
+0G2 H(T_control) = 1.635103035162e+09 GeV
+pure-gravity Gamma/H control = 5.987522979150e-16
